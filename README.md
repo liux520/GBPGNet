@@ -3,9 +3,29 @@
 
 <hr />
 
-## :writing_hand: Changelog and ToDos
-- [ ] Code and the model pre-training weights.
+## 🔥 Changelog and ToDos
+- [x] Code and the model pre-training weights.
 - [x] Method introduction, model performance and results visualization  :fire::fire::fire:.
+
+<hr />
+
+## :writing_hand: How to use
+### 1. Download Test Datasets
+- [Rain13K](https://drive.google.com/file/d/1P_-RAvltEoEhfT-9GrWRdpEi6NSswTs8/view) (Rain100L,Rain100H,Test100,Test1200,Test2800) dataset can be downloaded from here.
+- [RealRain1K](https://github.com/hiker-lw/RealRain-1k) dataset can be downloaded from here.
+- [CSD](https://drive.google.com/file/d/1smNrDvtPs89e0xk336Rt2-2KZffyX5H-/view) dataset can be downloaded from here.
+- [SnowKITTI](https://drive.google.com/file/d/1TB1WC60ZJvazepdvay18dCRr0yVLU6bH/view?usp=sharing) dataset can be downloaded from here.
+- [SnowCityscapes](https://drive.google.com/file/d/1E6iXFV6K5UJ4Mrqer17v6KsHhQOFvjtO/view?usp=sharing) dataset can be downloaded from here.
+- [Snow100K](https://sites.google.com/view/yunfuliu/desnownet) dataset can be downloaded from here.
+- [RealSnow](https://github.com/zhuyr97/WGWS-Net) dataset can be downloaded from here.
+
+### 2. Download Pretrained Weights
+Download the pre-trained  weights from [Google Drive](https://drive.google.com/file/d/1DuiduwZveBIQsJ1ua6bdCG3Bv3WTBB5F/view?usp=drive_link).
+
+### 3. Inference
+```python
+python demo/test_on_custom_datset.py
+```
 
 <hr />
 
